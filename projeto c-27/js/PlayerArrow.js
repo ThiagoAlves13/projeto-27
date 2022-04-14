@@ -74,9 +74,9 @@ class PlayerArrow {
     for (var i = 0; i < this.trajectory.length; i++) {
       fill("white");
 
-      ellipse(this.trajectory[0], this.trajectory[1], 5, 5);
+      //ellipse(this.trajectory[0], this.trajectory[1], 5, 5);
       //ellipse(trajectory[i][0], trajectory[i][1], 5, 5);
-      //ellipse(this.trajectory[i][0], this.trajectory[i][1], 5, 5);
+      ellipse(this.trajectory[i][0], this.trajectory[i][1], 5, 5);
       //ellipse(this.trajectory(i)(0), this.trajectory(i)(1), 5, 5);
       
     }
